@@ -1,0 +1,25 @@
+{
+    "name": "theipster/monolog-utils",
+    "description": "Common features for Monolog.",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.24",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.1",
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Ip",
+            "email": "theipster@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TheIpster\\MonologUtils\\": "src/"
+        }
+    }
+}
